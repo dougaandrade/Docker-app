@@ -42,9 +42,9 @@ E aplique suas configurações com `source /etc/profile`
 
 ### 4 - Como executar (Exemplo: GNU/Linux Debian 11)?
 1. Crie um ambiente virtual (opcional)
-- Entre no diretório do projeto e execute `python3 -m venv venv`
-- Ative o ambiente virtual com `source venv/bin/activate`
-- Instale as dependências com `pip install --no-cache-dir -r requirements.txt`
+  - Entre no diretório do projeto e execute `python3 -m venv venv`
+  - Ative o ambiente virtual com `source venv/bin/activate`
+  - Instale as dependências com `pip install --no-cache-dir -r requirements.txt`
 2. Execute o projeto com `python app.py`
 
 ### 5 - Como Acessar?
