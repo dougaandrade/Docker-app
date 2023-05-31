@@ -41,11 +41,13 @@ export SITE='DEFINA SEU VALOR: SEU SITE'
 E aplique suas configurações com `source /etc/profile`
 
 ### 4 - Como executar (Exemplo: GNU/Linux Debian 11)?
-1. Crie um ambiente virtual (opcional)
-  - Entre no diretório do projeto e execute `python3 -m venv venv`
-  - Ative o ambiente virtual com `source venv/bin/activate`
-  - Instale as dependências com `pip install --no-cache-dir -r requirements.txt`
-2. Execute o projeto com `python app.py`
+**Crie um ambiente virtual (opcional)**
+1. Entre no diretório do projeto e execute `python3 -m venv venv`
+2. Ative o ambiente virtual com `source venv/bin/activate`
+3. Instale as dependências com `pip install --no-cache-dir -r requirements.txt`
+
+**Execute o projeto**
+1. Execute com `python app.py`
 
 ### 5 - Como Acessar?
 Com a aplicação em execução abra o navegador em `localhost:8080`
