@@ -24,6 +24,7 @@ O projeto trabalha com algumas variáveis de ambientes para definir valores pres
 - EMAIL
 - PROFISSAO
 - SITE
+
 Exporte-as para aplicar seus valores.
 Você pode defini-las em algum local de sua preferência de modo que sejam carregadas no sistema.
 
