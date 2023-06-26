@@ -1,7 +1,4 @@
-# Projetos do curso 'Docker Essencial: Primeiros Passos'
-Repositório destinado a todos os projetos que competem ao curso 'Docker Essencial: Primeiros Passos'.
-
-## Projeto: Cartão de Visitas (card-business) - Python/Flask
+# Projeto: Cartão de Visitas (card-business) - Python/Flask
 ### 1 - O que é?
 Cartão de visitas web desenvolvido em Python com Flask com intuito educacional.
 
