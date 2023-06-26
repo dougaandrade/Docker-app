@@ -26,6 +26,7 @@ Exporte-as para aplicar seus valores.
 Você pode defini-las em algum local de sua preferência de modo que sejam carregadas no sistema.
 
 **3.1 - Exportando Variáveis de Ambiente**
+
 Adicione o trecho abaixo ao `/etc/profile`, por exemplo:
 ```bash
 export LOGOMARCA='DEFINA O SEU VALOR: LINK PARA LOGOMARCA'
