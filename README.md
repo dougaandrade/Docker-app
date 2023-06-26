@@ -29,13 +29,13 @@ Você pode defini-las em algum local de sua preferência de modo que sejam carre
 
 Adicione o trecho abaixo ao `/etc/profile`, por exemplo:
 ```bash
-export LOGOMARCA='DEFINA O SEU VALOR: LINK PARA LOGOMARCA'
-export FOTO='DEFINA O SEU VALOR: LINK PARA FOTO DO PERFIL'
-export NOME='DEFINA SEU VALOR: SEU NOME'
-export IDADE='DEFINA SEU VALOR: SUA IDADE'
-export EMAIL='DEFINA SEU VALOR: SEU EMAIL'
-export PROFISSAO='DEFINA SEU VALOR: SUA PROFISSAO'
-export SITE='DEFINA SEU VALOR: SEU SITE'
+export LOGOMARCA='DEFINA UM VALOR'
+export FOTO='DEFINA UM VALOR'
+export NOME='DEFINA UM VALOR'
+export IDADE='DEFINA UM VALOR'
+export EMAIL='DEFINA UM VALOR'
+export PROFISSAO='DEFINA UM VALOR'
+export SITE='DEFINA UM VALOR'
 ```
 E aplique suas configurações com `source /etc/profile`
 
