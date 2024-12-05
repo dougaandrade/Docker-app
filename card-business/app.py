@@ -1,8 +1,7 @@
 import os
-from flask import FLSlask, render_template
+from flask import Flask, render_template
 
 app = Flask(__name__)
-
 @app.route('/')
 def exibir_cartao():
     logo = os.environ.get('LOGOMARCA')
