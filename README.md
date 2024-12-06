@@ -4,7 +4,13 @@
 
 Cartão de visitas web desenvolvido em Python com Flask com intuito educacional.
 
-**1.2 - Estados do Card**
+**1.2 - O que é Docker?**
+
+- O Docker usa uma arquitetura cliente-servidor.
+- Com o Docker, você pode gerenciar sua infraestrutura da mesma forma que gerencia seus aplicativos. Ao aproveitar as metodologias do Docker para enviar, testar e implantar código, você pode reduzir significativamente o atraso entre escrever o código e executá-lo na produção.
+
+**1.3 - Estados do Card**
+
 <div style="display: flex; justify-content:space-between;">
 
  ![Dockerfile Default](./Dockerfile-default.png)
