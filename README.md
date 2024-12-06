@@ -1,28 +1,25 @@
-# Projeto: Cartão de Visitas (card-business) - Python/Flask
+# Projeto Docker: Cartão de Visitas (card-business) - Python/Flask
 
 ### 1 - O que é?
 
 Cartão de visitas web desenvolvido em Python com Flask com intuito educacional.
 
-**1.2 - O que é?**
+**1.2 - Estados do Card**
 <div style="display: flex; justify-content:space-between;">
-  
-<figure style="text-align:center; flex:1;">
-  
 
-  ![Dockerfile Default](./Dockerfile-default.png)
-</figure>
-
-<figure style="text-align:center; flex:1;"> 
-  
-  ![Dockerfile Container](./Dockerfile-container.png)
-</figure>
+ ![Dockerfile Default](./Dockerfile-default.png)
+default
+ ![Dockerfile Container](./Dockerfile-container.png)
+container
 </div>
+
 ### 2 - Pré-requisitos
 
-- Python (versão 3)
+- Python 
 - Pip
 - Flask
+
+**disclaimer: 'recomendo a versão 11 do python, ultimamente a mais estável'**
 
 **2.1 - Instalação dos pré-requisitos (Exemplo: GNU/Linux Debian 11)**
 
@@ -34,7 +31,6 @@ Cartão de visitas web desenvolvido em Python com Flask com intuito educacional.
 
 O projeto trabalha com algumas variáveis de ambientes para definir valores presentes no cartão web, são elas:
 
-- LOGOMARCA
 - FOTO
 - NOME
 - IDADE
@@ -50,7 +46,6 @@ Você pode defini-las em algum local de sua preferência de modo que sejam carre
 Adicione o trecho abaixo ao `/etc/profile`, por exemplo:
 
 ```bash
-export LOGOMARCA='DEFINA UM VALOR'
 export FOTO='DEFINA UM VALOR'
 export NOME='DEFINA UM VALOR'
 export IDADE='DEFINA UM VALOR'
@@ -72,6 +67,11 @@ E aplique suas configurações com `source /etc/profile`
 **Execute o projeto**
 
 1. Execute com `python app.py`
+
+**4.1 - Executando com Docker**
+
+1. Entre no diretório do projeto e execute `docker build -t <nome da imagem>:<tag> .`
+2. Apos o build execute o comando `docker run -it -p <porta personalizada> <nome da imagem>:<tag>`
 
 ### 5 - Como Acessar?
 
