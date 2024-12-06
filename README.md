@@ -6,7 +6,9 @@ Cartão de visitas web desenvolvido em Python com Flask com intuito educacional.
 
 **1.2 - O que é?**
 <div style="display: flex; justify-content:space-between;">
+  
 -![Dockerfile Default](./Dockerfile-default.png)
+  
 -![Dockerfile Container](./Dockerfile-container.png)
 </div>
 ### 2 - Pré-requisitos
