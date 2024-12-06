@@ -6,10 +6,10 @@ Cartão de visitas web desenvolvido em Python com Flask com intuito educacional.
 
 **1.2 - O que é?**
 <div style="display: flex; justify-content:space-between;">
-  <figure style="text-align:center; flex:1;">
+<figure style="text-align:center; flex:1;">
     ![Dockerfile Default](./Dockerfile-default.png)
   </figure>
-  <figure style="text-align:center; flex:1;">
+<figure style="text-align:center; flex:1;">
     ![Dockerfile Container](./Dockerfile-container.png)
   </figure>
 </div>
