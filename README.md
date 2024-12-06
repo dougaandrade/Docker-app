@@ -13,7 +13,7 @@ Cartão de visitas web desenvolvido em Python com Flask com intuito educacional.
 **2.1 - Instalação dos pré-requisitos (Exemplo: GNU/Linux Debian 11)**
 
 1. Atualize os repositórios com `sudo apt update`
-2. Instale os pacotes `sudo apt install python3.9 python3.9-dev python3.9-venv python3-pip -y`
+2. Instale os pacotes `sudo apt install python3.11 python3.11-dev python3.11-venv python3-pip -y`
 3. Atualize o pip com `sudo pip3 install --upgrade pip`
 
 ### 3 - Configurando variáveis de ambiente
