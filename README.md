@@ -4,6 +4,11 @@
 
 Cartão de visitas web desenvolvido em Python com Flask com intuito educacional.
 
+**1.2 - O que é?**
+
+- ![Dockerfile Default](./Dockerfile-default.png)
+- ![Dockerfile Container](./Dockerfile-container.png)
+
 ### 2 - Pré-requisitos
 
 - Python (versão 3)
