@@ -15,5 +15,4 @@ ENV EMAIL='vaue@gmail.com'
 ENV PROFISSAO='Developer'
 ENV SITE='https://github.com'
 
-
 CMD ["python3", "app.py"]
